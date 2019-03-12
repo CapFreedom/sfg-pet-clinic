@@ -2,7 +2,7 @@ package com.example.sfgpetclinic.model;
 
 import java.time.LocalTime;
 
-public class Pet {
+public class Pet extends BaseEntity {
     private LocalTime birthDate;
     private PetType petType;
     private Owner owner;
